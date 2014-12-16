@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -39,10 +40,11 @@ namespace TestStack.Seleno.Configuration.WebServers
         {
             var directory = new DirectoryInfo(Environment.CurrentDirectory);
 
-            while (directory.GetFiles("*.sln").Length == 0)
+            while (directory.GetFiles("*.sln", SearchOption.AllDirectories).Length == 0)
             {
                 directory = directory.Parent;
             }
+
             return directory.FullName;
         }
 
