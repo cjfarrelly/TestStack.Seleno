@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{B191C546-DEDD-4BA9-8C6D-150E0C89CAD9}"
 EndProject
@@ -41,6 +41,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStack.Seleno.AcceptanceTests.Web", "TestStack.Seleno.AcceptanceTests.Web\TestStack.Seleno.AcceptanceTests.Web.csproj", "{B8359DE7-3953-448C-A9AB-3E5C7F26AFCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStack.Seleno.AcceptanceTests", "TestStack.Seleno.AcceptanceTests\TestStack.Seleno.AcceptanceTests.csproj", "{C3317E81-5C4C-41F5-927F-0A9E6CA26317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{521E49E7-C158-41F3-A6DA-3318D89140EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
